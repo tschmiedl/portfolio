@@ -1,0 +1,21 @@
+/* default style for mobile */
+body {
+    background-image: "./images/colorfulboats.jpg";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+   /* styles for desktop when the browser is 600px or above */
+   @media (min-width: 600px) {
+    body {
+        background-image: "./images/bluegrey.jpg";
+    }
+   }
+   
+.name {
+    display: flex;
+    justify-content: center;
+
+}
