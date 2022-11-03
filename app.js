@@ -1,20 +1,29 @@
-const aboutMeBtn = document.getElementById('aboutmebtn')
+// 
+const pages = document.getElementsByTagName('section')
+const buttons = document.getElementsByClassName('navbuttons')
 
-const aboutMeTextBox = document.getElementById('aboutmetext')
-aboutMeTextBox.style.display="none"
-
-const workExperienceBtn = document.getElementById('workexperiencebtn')
-
-const workExperienceTextBox = document.getElementById('workexperiencetext')
-workExperienceTextBox.style.display="none"
+function onClickHandle(event){
+    
+    const pageId = event.target.innerText.toLowerCase()
+    console.log(pageId)
 
 
-// Button that opens up about me div 
-aboutMeBtn.addEventListener('click', () => {
-    aboutMeTextBox.style.display="block";
+for (let i = 0; i < pages.length;i++){
+    if (pageId === pages[i].id){
+        pages[i].className = 'current-page'
+    }
+    else {
+        pages[i].className = 'hidden-page'
+    }
+}}
+
+
+for (let i=0; i < buttons.length; i++){
+    buttons[i].addEventListener('click', onClickHandle)
 }
 
-)
-workExperienceBtn.addEventListener('click', () => {
-    workExperienceTextBox.style.display="block";
-})
+
+
+
+
+
