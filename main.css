@@ -1,6 +1,6 @@
 @media(min-width: 499px) {
-    
-    body {
+    html {
+        font-family: 'Times New Roman', Times, serif;
         background-image: url("./images/bluegrey.jpeg");
         background-position: center center;
         background-repeat: no-repeat;
@@ -10,25 +10,32 @@
         width: fit-content;
         height: 100vh;
         margin: 0 auto;
+    }
+
+
+    /* body {
+        background-image: url("./images/bluegrey.jpeg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: lightskyblue;
+        width: fit-content;
+        height: 100vh;
+        margin: 0 auto;
+        
     
         
-    }
+    } */
     
     .name {
-        
-        
-    
         max-width: 100%;
         min-width: 0px;
-        
         text-align: center;
-        
-        
-        
-        
         color: whitesmoke;
         margin-top: 10%;
         padding: 10%;
+        
     }
     nav {
         max-width: 100%;
@@ -75,14 +82,32 @@
         flex-direction: column;
         /* justify-content: space-evenly; */
         flex-wrap: nowrap;
-       
+        
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        font-style: normal;
+        font-size: small;
     }
     }
 
 /* Mobile View, OK for now */
 @media(max-width: 500px) {
 
-body {
+html {
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url("./images/bluegrey.jpeg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: lightskyblue;
+        width: fit-content;
+        height: 100vh;
+        margin: 0 auto;
+    }
+/* body {
     background-image: url("./images/bluegrey.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -94,20 +119,13 @@ body {
     margin: 0 auto;
 
     
-}
+} */
 
 
 .name {
-    
-    
-
     max-width: 100%;
     min-width: 0px;
     text-align: center;
-    
-    
-    
-    
     color: whitesmoke;
     margin-top: 8%;
     padding: 5%;
@@ -127,22 +145,15 @@ button, .navbuttons {
     color: whitesmoke;
     cursor: pointer; 
     overflow: hidden;
-    
-    
 }
 
 .current-page {
-    
     background-color: azure;
     align-items: center;
     text-align:center;
-
-    
     margin: 0 auto;
     padding: 4%;
-    
     padding: 1rem;
-    
     width: 70vw;
     border-radius: 1rem;
     overflow-y:hidden;
@@ -165,8 +176,17 @@ footer{
 .container{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     flex-wrap: nowrap;
+    
    
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-style: normal;
+    font-size: small;
+}
+p {
+    font-style: normal;
+    font-size: small;}
 }

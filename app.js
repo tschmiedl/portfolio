@@ -15,12 +15,14 @@ for (let i = 0; i < pages.length;i++){
     else {
         pages[i].className = 'hidden-page'
     }
+    
 }}
-
 
 for (let i=0; i < buttons.length; i++){
     buttons[i].addEventListener('click', onClickHandle)
 }
+
+
 
 
 
