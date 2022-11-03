@@ -1,7 +1,6 @@
 @media(min-width: 499px) {
     html {
         font-family: 'Times New Roman', Times, serif;
-        background-image: url("./images/bluegrey.jpeg");
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -10,24 +9,8 @@
         width: fit-content;
         height: 100vh;
         margin: 0 auto;
-    }
+    } 
 
-
-    /* body {
-        background-image: url("./images/bluegrey.jpeg");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-color: lightskyblue;
-        width: fit-content;
-        height: 100vh;
-        margin: 0 auto;
-        
-    
-        
-    } */
-    
     .name {
         max-width: 100%;
         min-width: 0px;
@@ -35,16 +18,13 @@
         color: whitesmoke;
         margin-top: 10%;
         padding: 10%;
-        
     }
     nav {
         max-width: 100%;
         min-width: 0px;
         text-align: center;
         color: whitesmoke;
-        
         padding: 20px;
-        
     }
     button, .navbuttons {
         background-color: transparent;
@@ -52,8 +32,6 @@
         color: whitesmoke;
         cursor: pointer; 
         overflow: hidden;
-        
-        
     }
     
     .current-page {
@@ -61,13 +39,8 @@
         background-color: azure;
         align-items: center;
         text-align: center;
-    
-        
-        /* margin: 0 auto; */
-        padding: 4%;
-        
-        padding: 1rem;
-        
+        padding: 4%; 
+        padding: 1rem; 
         width: 70vw;
         border-radius: 2rem;
         overflow-y:hidden;
@@ -80,9 +53,7 @@
     .container{
         display: flex;
         flex-direction: column;
-        /* justify-content: space-evenly; */
         flex-wrap: nowrap;
-        
     }
     ul {
         list-style-type: none;
@@ -97,7 +68,6 @@
 
 html {
         font-family: 'Times New Roman', Times, serif;
-        background-image: url("./images/bluegrey.jpeg");
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -131,13 +101,11 @@ html {
     padding: 5%;
 }
 nav {
-    /* flex:auto; */
     max-width: 100%;
     min-width: 30%;
     color: whitesmoke;
     align-items: flex-start;
     padding: 20px;
-    
 }
 button, .navbuttons {
     background-color: transparent;
@@ -177,9 +145,8 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    
-   
 }
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -188,5 +155,6 @@ ul {
 }
 p {
     font-style: normal;
-    font-size: small;}
+    font-size: small;
+}
 }
