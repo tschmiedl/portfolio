@@ -1,10 +1,10 @@
-// Pages function below
+// Pages function below, courtesy of Scott's lesson.
 const pages = document.getElementsByTagName('section')
 const buttons = document.getElementsByClassName('navbuttons')
 
 function onClickHandle(event){
     
-    const pageId = event.target.innerText.toLowerCase()
+const pageId = event.target.innerText.toLowerCase()
     
 
 for (let i = 0; i < pages.length;i++){
@@ -20,7 +20,7 @@ for (let i=0; i < buttons.length; i++){
     buttons[i].addEventListener('click', onClickHandle)
 }
 
-// Used JQuery Background Image Carousel
+
 // Got this method from https://stackoverflow.com/questions/57548709/how-do-i-make-my-background-into-a-auto-slideshow-carousel
 $.backstretch([
     "./images/bluegrey.jpeg",
