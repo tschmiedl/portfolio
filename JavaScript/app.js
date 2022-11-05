@@ -36,10 +36,11 @@ $.backstretch([
 
 // Open resume link in new window 
 const resumeLink = document.getElementById('resumelink')
-const resumeSpot = document.getElementById('experience')
 resumeLink.setAttribute('href', '../TannerSchmiedlResume.pdf')
-const newWindow = resumeLink.setAttribute('target','_blank')
-resumeSpot.prepend(resumeLink)
+resumeLink.setAttribute('target','_blank')
+resumeLink.innerText = "Resume"
+
+
 
 // Added email link
 const emailH4 = document.getElementById('emailh4')
