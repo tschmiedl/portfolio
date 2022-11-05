@@ -29,15 +29,17 @@ As a user of the website, I want a pleasant experience learning about Tanner thr
 Wireframes:
 
 About Me Page
-![AboutMe](readmeimages/AboutMe.png)
+![AboutMe](readmeimages/About_Me.png)
 Projects Page
 ![Projects](readmeimages/Projects.png)
 Experience Page
-![Experience](readmeimages/WorkExperience.png)
+![Experience](readmeimages/Work_Experience.png)
 Education Page
 ![Education](readmeimages/Education.png)
 Contact Page
 ![Contact](readmeimages/Contact.png)
+Mobile View
+![Mobile](./readmeimages/Mobile.png)
 
 Major hurdles:
 
