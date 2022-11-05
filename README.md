@@ -28,11 +28,11 @@ As a user of the website, I want a pleasant experience learning about Tanner thr
 
 Wireframes:
 
-![AboutMe](readmeimages/About_Me.jpeg)
-![Projects](readmeimages/Projects.jpeg)
-![Experience](readmeimages/Work_Experience.jpeg)
-![Education](readmeimages/Education.jpeg)
-![Contact](readmeimages/Contact.jpeg)
+![AboutMe](readmeimages/About_Me.png)
+![Projects](readmeimages/Projects.png)
+![Experience](readmeimages/Work_Experience.png)
+![Education](readmeimages/Education.png)
+![Contact](readmeimages/Contact.png)
 
 Major hurdles:
 
