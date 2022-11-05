@@ -41,6 +41,13 @@ resumeLink.setAttribute('href', '../TannerSchmiedlResume.pdf')
 const newWindow = resumeLink.setAttribute('target','_blank')
 resumeSpot.prepend(resumeLink)
 
+// Added email link
+const emailH4 = document.getElementById('emailh4')
+const emailLink = document.createElement('a')
+emailLink.innerText = 'Email'
+emailLink.setAttribute('href', 'mailto:tschmiedl@me.com')
+emailLink.setAttribute('target', '_blank')
+emailH4.prepend(emailLink)
 
 
 
