@@ -34,6 +34,17 @@ $.backstretch([
       transitionDuration: 400
   });
 
+// Open resume link in new window 
+const resumeLink = document.getElementById('resumelink')
+const resumeSpot = document.getElementById('experience')
+resumeLink.setAttribute('href', '../TannerSchmiedlResume.pdf')
+const newWindow = resumeLink.setAttribute('target','_blank')
+resumeSpot.prepend(resumeLink)
+
+
+
+
+
 
 
 
