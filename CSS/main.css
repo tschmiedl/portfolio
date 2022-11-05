@@ -109,7 +109,7 @@
         min-width: 30%;
         color: whitesmoke;
         align-items: flex-start;
-        padding: 20px;
+        padding: 20%;
     }
 
     button, .navbuttons {
@@ -118,7 +118,6 @@
         color: whitesmoke;
         cursor: pointer; 
         overflow: hidden;
-        
     }
 /* From Scott's tutorial */
     .current-page {
@@ -170,11 +169,9 @@
     /* Credit: https://www.javatpoint.com/how-to-change-link-color-in-css */
     a:link{
         color:black;
-        
     }
 
     a:visited{
-        color:black;
-        
+        color:black; 
     }
 }
