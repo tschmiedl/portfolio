@@ -36,7 +36,7 @@ $.backstretch([
 
 // Open resume link in new window 
 const resumeLink = document.getElementById('resumelink')
-resumeLink.setAttribute('href', '../TannerSchmiedlResume.pdf')
+resumeLink.setAttribute('href', 'TannerSchmiedlResume.pdf')
 resumeLink.setAttribute('target','_blank')
 resumeLink.innerText = "Resume"
 
