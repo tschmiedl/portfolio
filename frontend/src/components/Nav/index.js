@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 const Nav = () => {
    
     return(
-        <nav>
+        <nav style={{zIndex: 0}}>
           <motion.div 
             whileHover={{scale: 1.1,
             transition: {duration: .3},

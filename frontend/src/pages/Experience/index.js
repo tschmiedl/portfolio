@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 
+
 const Experience = () => {
     
     return(
@@ -15,7 +16,8 @@ const Experience = () => {
         }}
         exit={{opacity:0}}
         >
-        
+        <a href="https://pdfhost.io/v/O4uygT8Z._Tanner_Resume_GA" target="_blank" rel="noopener noreferrer" className="a-outclick" draggable={false}>
+        <motion.h4 whileHover={{scale: 1.1}}>Resume</motion.h4></a>
         <h4>General Assembly | Software Engineering Immersive Remote</h4>
         <h5>10/2022 - 1/2023</h5>
             <ul id="list"> 

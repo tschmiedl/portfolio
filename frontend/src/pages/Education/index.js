@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 
+
 const Education = () => {
 
     return(
@@ -16,11 +17,14 @@ const Education = () => {
         exit={{opacity:0}}
         >
         <h4>General Assembly</h4>
-            <motion.a href="https://generalassemb.ly/education/software-engineering-immersive" target="_blank" rel="noopener noreferrer" className="a-outclick" whileHover={{ scale: 1.2 }}>Software Engineering Immersive Remote</motion.a>
-            <h6>2022</h6>  
+
+            <a href="https://generalassemb.ly/education/software-engineering-immersive" target="_blank" rel="noopener noreferrer" className="a-outclick" draggable={false}>
+                <motion.h4 whileHover={{scale:1.1}}>Software Engineering Immersive Remote</motion.h4></a>
+            <h5>2022</h5>  
         <h4>California Lutheran University</h4>  
-            <motion.a href="https://www.callutheran.edu/academics/majors/music-production/" target="_blank" rel="noopener noreferrer" className="a-outclick" whileHover={{ scale: 1.2 }}>BA – Music Production</motion.a>
-            <h6>2013 – 2017</h6> 
+            <a href="https://www.callutheran.edu/academics/majors/music-production/" target="_blank" rel="noopener noreferrer" className="a-outclick" draggable={false}>
+                <motion.h4 whileHover={{scale:1.1}}>BA – Music Production</motion.h4></a>
+            <h5>2013 – 2017</h5> 
         </motion.div>
     )
 }

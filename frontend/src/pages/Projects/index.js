@@ -1,6 +1,7 @@
-import { AnimatePresence, motion } from "framer-motion"
+import { motion } from "framer-motion"
 import { useState } from "react"
 
+import quizMeGif from './assets/quizme.gif'
 import quizMePic from './assets/quizme.jpeg'
 import recommendMePic from './assets/recommendme.jpeg'
 
@@ -14,7 +15,7 @@ const Projects = () => {
     const myProjects = [
         {
         title: "Quiz Me",
-        image: quizMePic,
+        image: quizMeGif,
         description: "Quiz Me is a full-stack MERN application built using a MongoDB database, Express backend and a React frontend. The application allows users to sign up or login and create groups of flash cards for studying purposes. My approach for this project was to build a useful app that showcases my ability to create dry, clean and effective code. ",
         url: "https://ts-quizme.herokuapp.com/",
         github: "https://github.com/tschmiedl/QuizMe"
@@ -77,11 +78,12 @@ const Projects = () => {
       }}
         >
             <div className="projBtns">
-            <motion.button onClick={() => {setCurrentIndex(0)}} className="projBtn" whileHover={{ scale: 1.1 }}>Quiz Me</motion.button>
+            <motion.button onClick={() => {setCurrentIndex(0)}} className="projBtn" whileHover={{ scale: 1.1 }}
+            >Quiz Me</motion.button>
             <motion.button onClick={() => {setCurrentIndex(1)}} className="projBtn" whileHover={{ scale: 1.1 }}>Recommend Me</motion.button>
             </div>
             
-                    <img src={myProjects[currentIndex].image} style={{width: "80%"}} alt="" className="mx-auto" />
+                    <img src={myProjects[currentIndex].image} style={{width: "80%"}} alt="" className="mx-auto" draggable={false} />
                     <p>{myProjects[currentIndex].description}</p>
                     <motion.a href={myProjects[currentIndex].url} target="_blank" rel="noopener noreferrer" className="a-outclick" whileHover={{ scale: 1.1 }}>Visit {myProjects[currentIndex].title}</motion.a>
                     <motion.a href={myProjects[currentIndex].github} target="_blank" rel="noopener noreferrer" className="a-outclick" whileHover={{ scale: 1.1 }}>GitHub</motion.a>
