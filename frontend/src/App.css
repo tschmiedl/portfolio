@@ -21,7 +21,6 @@ nav {
     min-width: 0px;
     text-align: center;
     color: whitesmoke;
-    margin-top: 5%;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -37,20 +36,21 @@ a{
         background-color: azure;
         align-self: center;
         text-align:center;
-        width: 70vw;
+        width: 90vw;
         border-radius: 1rem;
         overflow-y:hidden;
         margin-top: 2em;
+        padding: 5px;
         
 }
 
-/* #root {
-    background-image: url(./assets/bluegrey.jpeg);
-    background-size: cover;
-    background-position: center center;
+#root {
+    
+    background: none;
+    
     width: 100%;
     height: 100vh;
-  } */
+  }
 
   body {
     margin: 0;
@@ -63,4 +63,33 @@ a{
     flex-direction: row;
     color: whitesmoke;
     text-align: center;
+    margin-top: 2em;
+  }
+
+  .a-outclick{
+    color: black;
+  }
+
+  /* .a-outclick:hover{
+    color: black;
+    text-decoration: underline;
+  } */
+
+  #headshot {
+    width: 18em;
+    border-radius: 1em;
+  }
+
+  .projectInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projBtn {
+    background-color: transparent;
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
