@@ -1,0 +1,97 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+html {
+    
+    font-family: 'Hind', sans-serif;
+    height: 100vh;
+    margin: 0 auto;
+} 
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-style: normal;
+    font-size: small;
+}
+
+nav {
+    max-width: 100%;
+    min-width: 0px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.section {
+        background-color: azure;
+        align-self: center;
+        text-align:center;
+        width: 90vw;
+        border-radius: 1rem;
+        /* overflow-y:hidden; */
+        margin-top: 2em;
+        padding: 5px;
+        
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #name {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .a-outclick{
+    color: black;
+  }
+
+  #headshot {
+    width: 18em;
+    border-radius: 1em;
+  }
+
+  .projectInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projBtn {
+    background-color: transparent;
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .contactLinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+
+
+
