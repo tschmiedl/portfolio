@@ -30,11 +30,12 @@ const Experience = () => {
         <h5>10/2019 - 05/2022</h5>
             <ul id="list">
                 <li>Managed scheduling of staff (15-20 staff members).</li>
-                <li>Assisted in recording sessions with the head engineer. Built client relationships.</li>  
+                <li>Assisted in recording sessions with the head engineer. Created and maintained client relationships.</li>  
                 <li>Maintained the studio environment and equipment.</li>
                 <li>Managed session reports and credits for songs recorded.</li>
                 <li>Worked closely with artists signed to 300 Entertainment, connected them to an engineer based on client needs and personality.</li>
             </ul>
+        <h4>Warehouse Associate</h4>
     </motion.div>
     )
 }

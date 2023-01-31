@@ -38,14 +38,6 @@ const Nav = () => {
 
               <Link to="/education">Education</Link>
           </motion.div>
-          <motion.div 
-            whileHover={{scale: 1.1,
-            transition: {duration: .3},
-            }}
-            whileTap={{ scale: 0.9 }}>
-
-              <Link to="/contact">Contact Me</Link>
-          </motion.div>
           
         
       </nav>
