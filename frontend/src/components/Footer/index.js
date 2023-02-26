@@ -5,6 +5,7 @@ import emailIcon from './assets/mail-142.svg'
 import gitHubIcon from './assets/iconmonstr-github-1.svg'
 
 
+
 const Footer = () => {
    
     return(

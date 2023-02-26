@@ -35,7 +35,7 @@ const Experience = () => {
                 <li>Managed session reports and credits for songs recorded.</li>
                 <li>Worked closely with artists signed to 300 Entertainment, connected them to an engineer based on client needs and personality.</li>
             </ul>
-        <h4>Warehouse Associate</h4>
+        
     </motion.div>
     )
 }
