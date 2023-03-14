@@ -54,6 +54,8 @@ function App() {
     }
   }
 
+  const pages = [<AboutMe />, <Experience />, <Projects />, <Education />]
+  const [currentPage, setCurrentPage] = useState(0)
 
   return (
     <div className="App">
@@ -77,12 +79,9 @@ function App() {
       >Tanner Schmiedl</motion.h1>
       
     </div>
-    <Nav/>
+    <Nav setCurrentPage={setCurrentPage}/>
+    {pages[currentPage]}
     <Routes>
-    <Route path="/" element={<AboutMe />} />
-    <Route path="/experience" element={<Experience />} />
-    <Route path="/projects" element={<Projects />} />
-    <Route path="/education" element={<Education />} />
     <Route path="/:id" element={<Error />} />
     </Routes>
     
