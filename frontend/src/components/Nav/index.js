@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 
-const Nav = () => {
+const Nav = (props) => {
    
     return(
         <nav style={{zIndex: 0}}>
@@ -11,7 +11,7 @@ const Nav = () => {
             }}
             whileTap={{ scale: 0.9 }}>
 
-              <Link to="/" >About Me</Link>
+              <Link onClick={() => {props.setCurrentPage(0)}} >About Me</Link>
 
           </motion.div>
           <motion.div 
@@ -20,7 +20,7 @@ const Nav = () => {
             }}
             whileTap={{ scale: 0.9 }}>
 
-              <Link to="/experience" >Experience</Link>
+              <Link onClick={() => {props.setCurrentPage(1)}} >Experience</Link>
           </motion.div>
           <motion.div 
             whileHover={{scale: 1.1,
@@ -28,7 +28,7 @@ const Nav = () => {
             }}
             whileTap={{ scale: 0.9 }}>
 
-              <Link to="/projects">Projects</Link>
+              <Link onClick={() => {props.setCurrentPage(2)}}>Projects</Link>
           </motion.div>
           <motion.div 
             whileHover={{scale: 1.1,
@@ -36,15 +36,7 @@ const Nav = () => {
             }}
             whileTap={{ scale: 0.9 }}>
 
-              <Link to="/education">Education</Link>
-          </motion.div>
-          <motion.div 
-            whileHover={{scale: 1.1,
-            transition: {duration: .3},
-            }}
-            whileTap={{ scale: 0.9 }}>
-
-              <Link to="/contact">Contact Me</Link>
+              <Link onClick={() => {props.setCurrentPage(3)}}>Education</Link>
           </motion.div>
           
         

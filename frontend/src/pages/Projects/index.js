@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 
 import quizMeGif from './assets/quizme.gif'
-import quizMePic from './assets/quizme.jpeg'
 import recommendMePic from './assets/recommendme.jpeg'
 
 const Projects = () => {

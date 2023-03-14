@@ -9,7 +9,6 @@ import Background from './components/Background';
 // Pages
 import AboutMe from './pages/AboutMe'
 import Experience from './pages/Experience'
-import Contact from './pages/Contact';
 import Education from './pages/Education';
 import Error from './pages/Error'
 
@@ -24,6 +23,7 @@ import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Projects from './pages/Projects';
+import Footer from './components/Footer';
 
 
 
@@ -54,6 +54,8 @@ function App() {
     }
   }
 
+  const pages = [<AboutMe />, <Experience />, <Projects />, <Education />]
+  const [currentPage, setCurrentPage] = useState(0)
 
   return (
     <div className="App">
@@ -77,21 +79,16 @@ function App() {
       >Tanner Schmiedl</motion.h1>
       
     </div>
-    <Nav/>
-
+    <Nav setCurrentPage={setCurrentPage}/>
+    {pages[currentPage]}
     <Routes>
-    <Route path="/" element={<AboutMe />} />
-    <Route path="/experience" element={<Experience />} />
-    <Route path="/projects" element={<Projects />} />
-    <Route path="/education" element={<Education />} />
-    <Route path="/contact" element={<Contact />} />
     <Route path="/:id" element={<Error />} />
     </Routes>
     
     
     
     
-      
+    <Footer />
     </div>
   );
 }
